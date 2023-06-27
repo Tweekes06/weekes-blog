@@ -13,6 +13,6 @@
 
 	li {
 		list-style: none;
-		padding-right: 10px;
+		padding-right: 50px;
 	}
 </style>
