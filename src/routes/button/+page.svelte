@@ -25,10 +25,12 @@
 
 <h1 class="text-5xl mb-8">The button</h1>
 
-<Button on:click={() => count++}>
-	Clicked {count}
-	{count === 1 ? 'time' : 'times'}
-</Button>
+<div class="flex items-center justify-center">
+	<Button on:click={() => count++}>
+		Clicked {count}
+		{count === 1 ? 'time' : 'times'}
+	</Button>
 
-<Button on:click={getValue}>Adjust max value</Button>
-<Button on:click={() => (count = 0)}>Reset button to 0</Button>
+	<Button on:click={getValue}>Adjust max value</Button>
+	<Button on:click={() => (count = 0)}>Reset button to 0</Button>
+</div>

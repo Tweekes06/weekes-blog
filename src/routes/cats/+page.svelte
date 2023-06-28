@@ -10,7 +10,7 @@
 	<img
 		class="m-4 rounded"
 		src="/cat (2).jpg"
-		alt="A pictutre of 3 cats sitti ng in the sunset"
+		alt="A pictutre of 3 cats sitting in the sunset"
 		width="300"
 	/>
 	<img
