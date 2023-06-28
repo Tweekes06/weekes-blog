@@ -1,9 +1,5 @@
 <h1 class="text-5xl mb-4">A cat photo dump</h1>
-<p class="mb-4 mt-4">
-	Featured on this page are 3 cats. The ginger black and white one is the oldest and she is called
-	Tinky, she hates the other two. The other two cats are younger and are brothers. The black and
-	white cat is phoenix and he is a bit stupid and then the other one is lando and his is very small
-</p>
+<p class="mb-4 mt-4">text goes here</p>
 <img
 	class="mb-4 rounded"
 	src="/cat (1).jpg"
