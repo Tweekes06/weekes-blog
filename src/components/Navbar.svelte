@@ -1,21 +1,10 @@
 <nav>
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="/contact">Contact</a></li>
-		<li><a href="/thales">Thales</a></li>
-		<li><a href="/cats">Cats</a></li>
-		<li><a href="/button">The Button</a></li>
+	<ul class="flex space-x-4 bg-blue-500">
+		<li><a href="/" class="hover:text-green-900 transition-colors">Home</a></li>
+		<li><a href="/about" class="hover:text-green-900 transition-colors">About</a></li>
+		<li><a href="/contact" class="hover:text-green-900 transition-colors">Contact</a></li>
+		<li><a href="/thales" class="hover:text-green-900 transition-colors">Thales</a></li>
+		<li><a href="/cats" class="hover:text-green-900 transition-colors">Cats</a></li>
+		<li><a href="/button" class="hover:text-green-900 transition-colors">The Button</a></li>
 	</ul>
 </nav>
-
-<style>
-	ul {
-		display: flex;
-	}
-
-	li {
-		list-style: none;
-		padding-right: 50px;
-	}
-</style>
