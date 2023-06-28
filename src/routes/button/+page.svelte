@@ -22,12 +22,14 @@
 	}
 </script>
 
-<h1>The button</h1>
+<h1 class="text-5xl mb-8">The button</h1>
 
-<button on:click={() => count++}>
+<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={() => count++}>
 	Clicked {count}
 	{count === 1 ? 'time' : 'times'}
 </button>
 
-<button on:click={getValue}> Adjust max value </button>
-<button on:click={() => (count = 0)}>Reset button to 0</button>
+<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={getValue}> Adjust max value </button>
+<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={() => (count = 0)}
+	>Reset button to 0</button
+>

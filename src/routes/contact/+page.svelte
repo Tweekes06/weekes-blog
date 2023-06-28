@@ -2,6 +2,6 @@
 	import DetailsTemplate from './detailsTemplate.svelte';
 </script>
 
-<h1>My contact details</h1>
+<h1 class="text-5xl">My contact details</h1>
 
 <DetailsTemplate />
