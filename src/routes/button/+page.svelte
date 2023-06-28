@@ -1,4 +1,5 @@
 <script>
+	import { browser } from '$app/environment';
 	import { parse } from 'svelte/compiler';
 
 	let count = 0;
@@ -9,16 +10,16 @@
 		count++;
 	}
 
-	while (maxValue == null) {
+	while (maxValue == null && browser) {
 		maxValue = prompt('what is the maximum amount of times the box can be clicked?');
 		if (maxValue != null) {
 			x = parseInt(maxValue);
-			x = x++;
+			x++;
 		}
 	}
 
 	$: if (count == x) {
-		alert('The button has been pressed too many times');
+		if (browser) alert('The button has been pressed too many times');
 		count = 0;
 	}
 </script>
