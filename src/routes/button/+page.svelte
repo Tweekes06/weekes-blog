@@ -1,5 +1,6 @@
 <script>
 	import { browser } from '$app/environment';
+	import Button from '../../components/Button.svelte';
 
 	let count = 0;
 	let maxValue = null;
@@ -24,12 +25,10 @@
 
 <h1 class="text-5xl mb-8">The button</h1>
 
-<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={() => count++}>
+<Button on:click={() => count++}>
 	Clicked {count}
 	{count === 1 ? 'time' : 'times'}
-</button>
+</Button>
 
-<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={getValue}> Adjust max value </button>
-<button class="m-1 px-2 py-1 bg-blue-500 rounded" on:click={() => (count = 0)}
-	>Reset button to 0</button
->
+<Button on:click={getValue}>Adjust max value</Button>
+<Button on:click={() => (count = 0)}>Reset button to 0</Button>
